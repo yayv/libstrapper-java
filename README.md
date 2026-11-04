@@ -1,9 +1,9 @@
 # libstrapper-java
 
-[libstrapper](../libstrapper) 接口参数契约规范的 Java 实现。用一段 JSON 形态的**格式描述**去校验另一段
+[libstrapper](https://github.com/yayv/libstrapper) 接口参数契约规范的 Java 实现。用一段 JSON 形态的**格式描述**去校验另一段
 JSON 形态的**参数数据**，产出归一化后的取值和一份问题清单。
 
-- 规范：[valueFormat](../libstrapper/spec/valueFormat.md)（值怎么描述）、
+- 规范：[valueFormat](https://github.com/yayv/libstrapper/valueFormat.md)（值怎么描述）、
   [dataStruct](../libstrapper/spec/dataStruct.md)（一组参数怎么描述）、
   [fileFormat](../libstrapper/spec/fileFormat.md)（接口文档怎么写）
 - 包名 `top.x0a.strapper`，构建工具 Gradle，**零第三方依赖**（JSON 解析和正则都用 JDK 自带能力）
